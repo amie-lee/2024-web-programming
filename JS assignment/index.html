@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAILWAYS</title>
+    <link rel='stylesheet' href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <img id="title" src="/sources/title.png">
+    <div id="menu">
+        <form id="menu-form">
+            <input id="name" type="text" placeholder="WHO ARE YOU?" required>
+            <select id="level" required>
+                <option value="easy">EASY (5x5)</option>
+                <option value="hard">HARD (7x7)</option>
+            </select>            
+            <button id="start" type="submit">START GAME</button>
+        </form>
+        
+        <button id="rules">RULES</button>
+
+        <span id="rules-content" style="display: none;">
+            GOAL:<br>Create a continuous circular railway line that covers every accessible tile on the grid.<br><br>
+            HOW TO PLAY:<br>
+            <li>Drag a rail from the side.</li>
+            <li>Drop it onto the map.</li><br>
+            RULES:<br>
+            <li>Bridge: Only straight rails</li>
+            <li>Mountain: Only curved rails</li>
+            <li>Oasis: No rails can be placed</li>
+            <li>Empty: Any rail can be placed</li><br>
+            * Click a rail on the map to rotate it.<br>
+            <button id="rules-close">CLOSE</button>
+        </span>
+    </div>
+
+    <div id="game-screen" style="display: none;">
+        <h1>GAME</h1>
+    </div>
+
+    <div id="game-over" style="display: none;">
+        <h1>GAME OVER</h1>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
