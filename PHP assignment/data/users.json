@@ -1,0 +1,32 @@
+{
+    "677eb84fa8ae3": {
+        "fullname": "Sy Lee",
+        "email": "aa@gmail.com",
+        "password": "$2y$10$1nUzUzr05iOxEJDWgqik7.29zz\/SocOk1hsxNv1\/gp32BwQAdg0Iy",
+        "roles": [
+            "user"
+        ],
+        "id": "677eb84fa8ae3",
+        "image": "src\/blank-profile.png"
+    },
+    "677eb9166e722": {
+        "fullname": "aa",
+        "email": "aaa@nav.com",
+        "password": "$2y$10$TU1JrKFwTR0zT1j8hCn2rO3l.nqeLET0BC9d3WqKNGm12xzwnn\/qG",
+        "roles": [
+            "user"
+        ],
+        "id": "677eb9166e722",
+        "image": "src\/blank-profile.png"
+    },
+    "677f0d9c25db7": {
+        "fullname": "ADMIN",
+        "email": "admin@ikarrental.hu",
+        "password": "$2y$10$KgShmaxgW\/AMOVM.4vty7eHJpuDYw39J7TxojsdkGRFUS7RaI.aSm",
+        "roles": [
+            "admin"
+        ],
+        "id": "677f0d9c25db7",
+        "image": "src\/blank-profile.png"
+    }
+}

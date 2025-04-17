@@ -1,0 +1,130 @@
+body {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    background-color: #131314;
+    margin: 0;
+}
+
+header {
+    background-color: #272729;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+header h3 {
+    cursor: pointer;
+    margin: 0;
+    font-weight: bold;
+    font-size: larger;
+}
+div.banner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+div.banner a, button {
+    margin: 0;
+    cursor: pointer;
+}
+div.banner form {
+    margin: 0;
+    padding: 0;
+}
+#login {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.profile-link {
+    display: inline-block;
+}
+.profile-img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+button {
+    color: #131314;
+    background-color: #f0b400;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+#main-banner {
+    margin: 1rem;
+}
+h1 {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+#profile img {
+    width: 20%;
+    border-radius: 1rem;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+}
+#profile strong {
+    font-size: x-large;
+}
+
+h3 {
+    margin: 2rem;
+    margin-bottom: 0;
+}
+#list {
+    display: flex;
+    width: 100%;
+    margin: 2rem;
+    margin-top: 0;
+}
+#list-item {
+    background-color: #6c757d;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    width: auto;
+}
+#list img {
+    width: 200px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+#brand {
+    margin: 0;
+}
+#model {
+    font-weight: bold;
+}
+#passengers {
+    font-weight: 300;
+    margin: 0;
+}
+#date {
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}

@@ -1,0 +1,103 @@
+body {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    background-color: #131314;
+    margin: 0;
+}
+
+header {
+    background-color: #272729;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+header h3 {
+    cursor: pointer;
+    margin: 0;
+    font-weight: bold;
+    font-size: larger;
+}
+div.banner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+div.banner a, button {
+    margin: 0;
+    cursor: pointer;
+}
+#login {
+    color: #ffffff;
+    text-decoration: none;
+}
+div.banner form {
+    padding: 0;
+}
+
+.profile-link {
+    display: inline-block;
+}
+.profile-img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+button {
+    color: #131314;
+    background-color: #f0b400;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    width: 60%;
+}
+input {
+    border-radius: 0.25rem;
+    border-style: none;
+    height: 1.5rem;
+    color: #272729;
+    width: 100%;
+}
+select {
+    border-radius: 0.25rem;
+    border-style: none;
+    height: 1.5rem;
+    color: #272729;
+    width: 100%;
+}
+
+.submit {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-self: flex-end;
+}
+
+.error {
+    color: red;
+    font-size: small;
+}
